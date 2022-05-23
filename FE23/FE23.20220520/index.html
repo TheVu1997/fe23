@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Add React in One Minute</title>
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js" crossorigin></script>
+  </head>
+
+  <body>
+    <style>
+        #container {
+          padding: 50px;
+          background-color: #EEE;
+        }
+        #container h1 {
+          font-size: 144px;
+          font-family: sans-serif;
+          color: #0080A8;
+        }
+    </style>      
+      
+    <div id="container"></div>
+    
+    <script type="text/babel">
+        const destination = document.getElementById('container');
+        ReactDOM.render(
+            <h1>hello Phúc Trần</h1>,
+            destination
+        );
+    </script>
+  </body>
+
+</html>
